@@ -17,22 +17,20 @@ React UI(`vbox-ui`)와 연동하여 웹에서 VM을 시작하거나 중지할 �
 ## ⚙️ Installation
 
 ```bash
-# 1️⃣ Clone repository
+# Clone repository
 git clone https://github.com/ppusari/vbox-api.git
 cd vbox-api
 
-# 2️⃣ 가상환경 생성 및 활성화
+# 가상환경 생성 및 활성화
 python3 -m venv venv
 source venv/bin/activate
 
-# 3️⃣ 패키지 설치
+# 패키지 설치
 pip install -r requirements.txt
 
-# 4️⃣ 환경변수 설정 (.env 파일 생성)
+# 환경변수 설정 (.env 파일 생성)
 echo "ADMIN_USER=admin" >> .env
 echo "ADMIN_PASS=admin123" >> .env
 
-# 5️⃣ 서버 실행
+# 서버 실행
 bash start.sh
-
-
