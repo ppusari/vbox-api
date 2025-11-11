@@ -11,6 +11,7 @@ React UI(`vbox-ui`)와 연동하여 웹에서 VM을 시작하거나 중지할 �
 - VM 중지 (`/vms/{name}/stop`)
 - 로그인 API (`/login`)
 - `.env`로 관리자 계정 설정 가능
+- server port: 20001
 
 ---
 
@@ -31,6 +32,9 @@ pip install -r requirements.txt
 # 환경변수 설정 (.env 파일 생성)
 echo "ADMIN_USER=admin" >> .env
 echo "ADMIN_PASS=admin123" >> .env
+```
 
-# 서버 실행
-bash start.sh
+##  서버 구동
+- 실행: bash start.sh
+- 중지: bash stop.sh
+- 상태확인: bash status.sh
