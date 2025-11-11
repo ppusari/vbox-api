@@ -12,7 +12,7 @@ if [ ! -z "$PID" ]; then
 fi
 
 # 2️⃣ FastAPI 서버 실행
-nohup uvicorn app.main:app --host 0.0.0.0 --port 2000 > vbox-api.log 2>&1 &
+nohup uvicorn app.main:app --host 0.0.0.0 --port 20001 > vbox-api.log 2>&1 &
 echo "FastAPI 서버 시작됨"
 
 
